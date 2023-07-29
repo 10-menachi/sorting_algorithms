@@ -30,5 +30,8 @@ void quick_sort(int *array, size_t size);
 void shell_sort(int *array, size_t size);
 void cocktail_sort_list(listint_t **list);
 void swap(listint_t **list, listint_t *one, listint_t *two);
+int _max(int *array, size_t size);
+void counting_sort(int *array, size_t size, int exp);
+void radix_sort(int *array, size_t size);
 
 #endif
