@@ -52,6 +52,7 @@ int lomuto_partition(int *array, int low, int high)
 	return (x + 1);
 }
 
+
 /**
  * quick_sort_recursive - sorts an array using quicksort
  *
